@@ -1,3 +1,5 @@
+import React from "react"
+
 const Task = ({title, description}) => {
     return (
       <div className="task"> 
