@@ -9,3 +9,80 @@
 body{
   background-color: #EDF2F4;
 }
+
+.container{
+  background-color: #7b8cde;
+  width: 70%;
+  margin: auto;
+  margin-top: 4px;
+  min-height: 100vh;
+  padding: 4vmax 8vmax;
+  box-sizing: border-box;
+  border: 8px solid #e6ebed;
+}
+
+.container > form {
+  display: flex;
+  flex-direction: column ;
+}
+
+input,
+textarea,
+button {
+  padding: 15px;
+  border: 1px solid #EDF2F4;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+button{
+  border: none;
+  cursor: pointer;
+  background-color: #FFBF00;
+  font-size: 1.2rem;
+}
+
+.container h1 {
+  text-align: center;
+  color: #07020D;
+  margin: 30px;
+  font-size: 2.4rem;
+}
+
+.task{
+  display: flex;
+  background-color: #EDF2F4;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px 0;
+  align-items: center;
+}
+
+.task div{
+  width: 100%;
+}
+
+.task button{
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #D1462F;
+}
+
+.task button:hover{
+  background-color: red;
+}
+
+.task p{
+  font-weight: 600;
+  color: #07020D;
+}
+
+.task span{
+  font-weight: 300;
+  color: #07020D;
+}

@@ -3,7 +3,7 @@ import './Header.css'
 
 const Header = () => {
   return (
-    <nav> Plan your day ahead with Day Planner! </nav>
+    <nav> Plan your day ahead with the Day Planner ... </nav>
   )
 }
 
